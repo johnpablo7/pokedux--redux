@@ -2,6 +2,10 @@
   "name": "pokedux",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "John Pablo",
+    "email": "john.davis.2015.03@gmail.com"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.3",
@@ -9,6 +13,8 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.1.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
