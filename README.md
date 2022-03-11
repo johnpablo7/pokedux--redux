@@ -1,15 +1,26 @@
-Pokedux Status badge
+# Pokedux ![Status badge](https://img.shields.io/badge/status-in%20progress-yellow)
+
 ✨ Encuentra tus pokemones favoritos y descubre todas sus habilidades para convertirte en el mejor Maestro Pokemón usando REDUX.
 
-🚀 Instalación
-Clona este proyecto.
-Ve a la carpeta del proyecto cd pokedux
-Instala las dependencias npm
-Corre el ambiente local npm start
-🛠 Despliegue
-Una vez instsaladas las dependencias, puedes hacer el build npm run build
-🦀 Base de Datos Pokemon
-Todos los datos vienen de PokeApi
+## 🚀 Instalación
 
-🧾 License
+1. Clona este proyecto.
+2. Ve a la carpeta del proyecto
+   `cd pokedux`
+3. Instala las dependencias
+   `npm`
+4. Corre el ambiente local
+   `npm start`
+
+## 🛠 Despliegue
+
+1. Una vez instsaladas las dependencias, puedes hacer el build
+   `npm run build`
+
+## 🦀 Base de Datos Pokemon
+
+Todos los datos vienen de [PokeApi](https://pokeapi.co/)
+
+## 🧾 License
+
 The MIT License (MIT)
