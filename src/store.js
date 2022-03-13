@@ -1,7 +1,8 @@
-import { createStore } from "redux";
+import { createStore, compose, applyMiddleware } from "redux";
+import thunk from "redux-thunk";
+import { logActions, reportError } from "./middlewares";
 import { pokemonReducer } from "./reducers/pokemonReducer";
 
-export const store = createStore(
-  pokemonReducer,
-  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
-);
+const composeAlt = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+const composedEnhacers = composeAlt(applyMiddleware(thunk, logActions, reportError));
+export const store = createStore(pokemonReducer, composedEnhacers);
