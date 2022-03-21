@@ -1,11 +1,17 @@
-.pokemon_card {
+.PokemonCard {
   border-radius: 20px;
   padding: 1em;
   margin: 1em;
   box-shadow: 0.2em 0.4em 0.4em -0.2em #999;
 }
 
-.pokemon_card-title {
+.PokemonCard-title {
   text-align: center;
   color: #999;
+}
+
+.PokemonCard-favorite {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }

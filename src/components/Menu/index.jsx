@@ -1,17 +1,21 @@
+import React from "react";
 import { Menu as SemanticMenu, Container, Image } from "semantic-ui-react";
+import logo from "../../statics/images/logo_v4.svg";
 
-export const Menu = () => {
+const Menu = () => {
   return (
-    <SemanticMenu fixed="top">
+    <SemanticMenu>
       <Container>
         <SemanticMenu.Item to="/">
-          <Image size="small" src={"/images/logo_v4.svg"} />
+          <Image size="small" src={logo} />
         </SemanticMenu.Item>
-        <SemanticMenu.Item to="/"><b>Home</b></SemanticMenu.Item>
+        <SemanticMenu.Item to="/">Home</SemanticMenu.Item>
         <SemanticMenu.Item to="/" position="right">
-          <b>Favorites</b>
+          Favorites
         </SemanticMenu.Item>
       </Container>
     </SemanticMenu>
   );
 };
+
+export default Menu;

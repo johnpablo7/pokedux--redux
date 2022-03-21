@@ -1,7 +1,8 @@
+import React from "react";
 import { Grid, Search } from "semantic-ui-react";
 import "./styles.css";
 
-export const Searcher = () => {
+export default function SearchBar() {
   return (
     <div className="Searcher wrapper">
       <Grid>
@@ -21,4 +22,4 @@ export const Searcher = () => {
       </Grid>
     </div>
   );
-};
+}
