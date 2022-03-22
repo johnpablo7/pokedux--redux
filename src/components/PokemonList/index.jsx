@@ -1,6 +1,5 @@
 import { Grid } from "semantic-ui-react";
 import { PokemonCard } from "./PokemonCard";
-
 import "./styles.css";
 
 export const PokemonList = ({ pokemons }) => {
